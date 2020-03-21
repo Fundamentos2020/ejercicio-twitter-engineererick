@@ -34,11 +34,15 @@ function agregarTweet(e) {
      botonBorrar.innerText = 'X';
 
      // Crear elemento y añadirle el contenido a la lista
+     var img = document.createElement("img");
+     img.src = "https://picsum.photos/id/237/50/50";
+     var src = document.getElementById("x");
      const li = document.createElement('li');
      li.innerText = tweet;
      // añade el botón de borrar al tweet
      li.appendChild(botonBorrar);
      // añade el tweet a la lista
+     src.appendChild(img);
      listaTweets.appendChild(li);
 
      // Añadir a Local Storage
