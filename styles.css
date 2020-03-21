@@ -130,3 +130,14 @@ body { margin: 0; }
 
 [class*="col-"] { float: left; }
 [class*="flex-"] { display: flex; }
+
+.img-usuario{
+    background-image: url(https://picsum.photos/200);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.padIMG{
+    padding-left: 1.2em;
+}
